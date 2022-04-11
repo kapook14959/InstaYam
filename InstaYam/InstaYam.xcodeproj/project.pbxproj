@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44A1E6E92803E7DD002BD00E /* FeedContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E6E82803E7DD002BD00E /* FeedContentTableViewCell.swift */; };
+		44A1E6EB2803E7EB002BD00E /* FeedContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A1E6EA2803E7EB002BD00E /* FeedContentTableViewCell.xib */; };
 		44DD13B427FD8D7D0066D332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD13B327FD8D7D0066D332 /* AppDelegate.swift */; };
 		44DD13B627FD8D7D0066D332 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD13B527FD8D7D0066D332 /* SceneDelegate.swift */; };
 		44DD13B827FD8D7D0066D332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD13B727FD8D7D0066D332 /* ViewController.swift */; };
@@ -58,6 +60,12 @@
 		44DD144127FDAACE0066D332 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD144027FDAACE0066D332 /* FeedTableViewCell.swift */; };
 		44DD144327FDAAE30066D332 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DD144227FDAAE30066D332 /* FeedTableViewCell.xib */; };
 		44DD144527FDAF4B0066D332 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD144427FDAF4B0066D332 /* UIViewController+Extension.swift */; };
+		44DD145327FDE4BC0066D332 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DD144E27FDE4BC0066D332 /* LoadingView.xib */; };
+		44DD145427FDE4BC0066D332 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD144F27FDE4BC0066D332 /* LoadingView.swift */; };
+		44DD145527FDE4BC0066D332 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD145027FDE4BC0066D332 /* UIView+Extension.swift */; };
+		44DD145627FDE4BC0066D332 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD145127FDE4BC0066D332 /* CircularView.swift */; };
+		44DD145927FDEA610066D332 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD145827FDEA610066D332 /* StoryCollectionViewCell.swift */; };
+		44DD145B27FDEA960066D332 /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DD145A27FDEA960066D332 /* StoryCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +86,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44A1E6E82803E7DD002BD00E /* FeedContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedContentTableViewCell.swift; sourceTree = "<group>"; };
+		44A1E6EA2803E7EB002BD00E /* FeedContentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedContentTableViewCell.xib; sourceTree = "<group>"; };
 		44DD13B027FD8D7D0066D332 /* InstaYam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaYam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DD13B327FD8D7D0066D332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44DD13B527FD8D7D0066D332 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +143,12 @@
 		44DD144027FDAACE0066D332 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		44DD144227FDAAE30066D332 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
 		44DD144427FDAF4B0066D332 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		44DD144E27FDE4BC0066D332 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		44DD144F27FDE4BC0066D332 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		44DD145027FDE4BC0066D332 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		44DD145127FDE4BC0066D332 /* CircularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
+		44DD145827FDEA610066D332 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		44DD145A27FDEA960066D332 /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +176,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44A1E6E72803E6C3002BD00E /* FeedContentTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				44A1E6E82803E7DD002BD00E /* FeedContentTableViewCell.swift */,
+				44A1E6EA2803E7EB002BD00E /* FeedContentTableViewCell.xib */,
+			);
+			path = FeedContentTableViewCell;
+			sourceTree = "<group>";
+		};
 		44DD13A727FD8D7C0066D332 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				44DD13EB27FD8E2B0066D332 /* SupportFiles */,
+				44DD144B27FDE4BC0066D332 /* CommonUI */,
 				44DD13E527FD8DF00066D332 /* Endpoints */,
 				44DD13E427FD8DEC0066D332 /* Extensions */,
 				44DD13EC27FD8E4C0066D332 /* Scenes */,
@@ -228,6 +254,7 @@
 		44DD13E427FD8DEC0066D332 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				44DD145027FDE4BC0066D332 /* UIView+Extension.swift */,
 				44DD13E927FD8E150066D332 /* UIImageView+Extension.swift */,
 				44DD144427FDAF4B0066D332 /* UIViewController+Extension.swift */,
 			);
@@ -358,6 +385,7 @@
 		44DD143A27FDAA280066D332 /* StoryCell */ = {
 			isa = PBXGroup;
 			children = (
+				44DD145727FDEA3E0066D332 /* StoryCollectionViewCell */,
 				44DD143B27FDAA530066D332 /* StoryTableViewCell.swift */,
 				44DD143D27FDAA620066D332 /* StoryTableViewCell.xib */,
 			);
@@ -367,10 +395,38 @@
 		44DD143F27FDAA680066D332 /* FeedCell */ = {
 			isa = PBXGroup;
 			children = (
+				44A1E6E72803E6C3002BD00E /* FeedContentTableViewCell */,
 				44DD144027FDAACE0066D332 /* FeedTableViewCell.swift */,
 				44DD144227FDAAE30066D332 /* FeedTableViewCell.xib */,
 			);
 			path = FeedCell;
+			sourceTree = "<group>";
+		};
+		44DD144B27FDE4BC0066D332 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				44DD144D27FDE4BC0066D332 /* Loading */,
+				44DD145127FDE4BC0066D332 /* CircularView.swift */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		44DD144D27FDE4BC0066D332 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				44DD144E27FDE4BC0066D332 /* LoadingView.xib */,
+				44DD144F27FDE4BC0066D332 /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		44DD145727FDEA3E0066D332 /* StoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				44DD145827FDEA610066D332 /* StoryCollectionViewCell.swift */,
+				44DD145A27FDEA960066D332 /* StoryCollectionViewCell.xib */,
+			);
+			path = StoryCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -482,10 +538,13 @@
 				44DD13C027FD8D7D0066D332 /* LaunchScreen.storyboard in Resources */,
 				44DD143E27FDAA620066D332 /* StoryTableViewCell.xib in Resources */,
 				44DD13BD27FD8D7D0066D332 /* Assets.xcassets in Resources */,
+				44A1E6EB2803E7EB002BD00E /* FeedContentTableViewCell.xib in Resources */,
 				44DD142C27FD9CDC0066D332 /* Market.storyboard in Resources */,
 				44DD13BB27FD8D7D0066D332 /* Main.storyboard in Resources */,
 				44DD143927FD9D7C0066D332 /* Profile.storyboard in Resources */,
 				44DD144327FDAAE30066D332 /* FeedTableViewCell.xib in Resources */,
+				44DD145327FDE4BC0066D332 /* LoadingView.xib in Resources */,
+				44DD145B27FDEA960066D332 /* StoryCollectionViewCell.xib in Resources */,
 				44DD141227FD9AC90066D332 /* Search.storyboard in Resources */,
 				44DD13F627FD94F40066D332 /* Home.storyboard in Resources */,
 			);
@@ -513,6 +572,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44DD13B827FD8D7D0066D332 /* ViewController.swift in Sources */,
+				44A1E6E92803E7DD002BD00E /* FeedContentTableViewCell.swift in Sources */,
 				44DD141B27FD9BF30066D332 /* ReelsModels.swift in Sources */,
 				44DD143727FD9D710066D332 /* ProfileInteractor.swift in Sources */,
 				44DD13F027FD90B90066D332 /* InstaYamStore.swift in Sources */,
@@ -523,11 +583,14 @@
 				44DD141027FD9AC20066D332 /* SearchInteractor.swift in Sources */,
 				44DD142727FD9CC20066D332 /* MarketRouter.swift in Sources */,
 				44DD140E27FD9AC20066D332 /* SearchModels.swift in Sources */,
+				44DD145427FDE4BC0066D332 /* LoadingView.swift in Sources */,
 				44DD140C27FD9AC20066D332 /* SearchPresenter.swift in Sources */,
 				44DD143327FD9D710066D332 /* ProfilePresenter.swift in Sources */,
 				44DD13EE27FD90350066D332 /* HomeResponse.swift in Sources */,
 				44DD141927FD9BF30066D332 /* ReelsPresenter.swift in Sources */,
 				44DD141A27FD9BF30066D332 /* ReelsRouter.swift in Sources */,
+				44DD145527FDE4BC0066D332 /* UIView+Extension.swift in Sources */,
+				44DD145927FDEA610066D332 /* StoryCollectionViewCell.swift in Sources */,
 				44DD140D27FD9AC20066D332 /* SearchRouter.swift in Sources */,
 				44DD13B427FD8D7D0066D332 /* AppDelegate.swift in Sources */,
 				44DD13EA27FD8E150066D332 /* UIImageView+Extension.swift in Sources */,
@@ -545,6 +608,7 @@
 				44DD13FD27FD95120066D332 /* HomeRouter.swift in Sources */,
 				44DD13FE27FD95120066D332 /* HomeModels.swift in Sources */,
 				44DD142627FD9CC20066D332 /* MarketPresenter.swift in Sources */,
+				44DD145627FDE4BC0066D332 /* CircularView.swift in Sources */,
 				44DD140327FD95F50066D332 /* TabBarsViewController.swift in Sources */,
 				44DD141D27FD9BF30066D332 /* ReelsInteractor.swift in Sources */,
 				44DD13FF27FD95120066D332 /* HomeViewController.swift in Sources */,

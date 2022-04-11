@@ -17,7 +17,19 @@ final class HomePresenter: HomePresenterOutput {
         switch response.result {
         case .success(let homeResponse):
             let story = HomeModels.HomeResponseTypes.story(homeResponse.stories)
-            let feed = HomeModels.HomeResponseTypes.feed(homeResponse.feed)
+            let feedData = homeResponse.feed.map { data in
+                return FeedData(image: data.image,
+                                name: data.name,
+                                location: data.location,
+                                photos: data.photos,
+                                videos: data.videos,
+                                amountLikes: data.amountLikes,
+                                captions: data.captions,
+                                comments: data.comments,
+                                isLike: false)
+            }
+            print("feedData \(feedData)")
+            let feed = HomeModels.HomeResponseTypes.feed(feedData)
             let homeTypes = [story, feed]
             let viewModel = HomeModels.GetHome.ViewModel(result: .success(homeTypes))
             viewController?.displayHome(viewModel: viewModel)

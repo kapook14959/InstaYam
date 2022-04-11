@@ -21,7 +21,7 @@ struct Feed: Codable {
     let videos: String?
     let amountLikes, captions: String
     let comments: [Comment]?
-
+    
     enum CodingKeys: String, CodingKey {
         case image, name, location, photos, videos
         case amountLikes = "amount_likes"

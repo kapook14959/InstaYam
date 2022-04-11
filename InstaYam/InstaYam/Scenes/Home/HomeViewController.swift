@@ -10,6 +10,8 @@ protocol HomeViewControllerOutput: AnyObject {
 
 final class HomeViewController: UIViewController {
     @IBOutlet private weak var tableView: UITableView!
+    @IBOutlet private weak var topView: UIView!
+    @IBOutlet private weak var instagramView: UIView!
     
     var interactor: HomeInteractorOutput!
     var router: HomeRouterInput!
@@ -42,6 +44,7 @@ final class HomeViewController: UIViewController {
         setupTabBar()
         setupTableView()
         setupRefreshControl()
+        setupLoadingView()
         interactor.getHome(request: HomeModels.GetHome.Request())
     }
     
@@ -64,6 +67,18 @@ final class HomeViewController: UIViewController {
         tableView.register(feedNib, forCellReuseIdentifier: "FeedCell")
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.estimatedRowHeight = 44
+    }
+    
+    private func setupLoadingView() {
+        topView.isHidden = true
+        tableView.backgroundView = LoadingView()
+    }
+    
+    private func setupDidCallEndpoint() {
+        topView.isHidden = false
+        tableView.backgroundView = nil
+        tableView.reloadData()
     }
     
     private func setupRefreshControl() {
@@ -80,7 +95,7 @@ final class HomeViewController: UIViewController {
     // MARK: - Actions
     
     @IBAction private func didTapInstagramButton() {
-        
+        instagramView.clickedAnimate()
     }
     
     // MARK: - Private func
@@ -95,7 +110,7 @@ extension HomeViewController: HomeViewControllerOutput {
         switch viewModel.result {
         case .success(let homeResponse):
             data = homeResponse
-            tableView.reloadData()
+            setupDidCallEndpoint()
         case .failure(let error):
             if let errorModel = error as? ErrorModel {
                 presentAlert(title: errorModel.title, description: errorModel.description, buttonName: "OK")
@@ -115,11 +130,13 @@ extension HomeViewController: UITableViewDataSource {
         guard let data = data?[indexPath.row] else { return UITableViewCell() }
         
         switch data {
-        case .story:
+        case .story(let stories):
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "StoryCell", for: indexPath) as? StoryTableViewCell else { return UITableViewCell() }
+            cell.updateUI(stories: stories)
             return cell
-        case .feed:
+        case .feed(let feed):
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "FeedCell", for: indexPath) as? FeedTableViewCell else { return UITableViewCell() }
+            cell.updateUI(feed: feed)
             return cell
         }
     }
@@ -129,9 +146,9 @@ extension HomeViewController: UITableViewDataSource {
         
         switch data {
         case .story:
-            return 100
-        case .feed:
-            return 1000
+            return 102
+        case .feed(let feed):
+            return 456 * CGFloat(feed.count)
         }
     }
 }

@@ -21,28 +21,8 @@ The reason is to learn the creating process of the most famous application. I ha
 - Mock data in Heroku server (https://instagram-mock-hosting.herokuapp.com/home)
 - Responsive in any iPhone platforms
 
-# iPhone SE image examples 
-
-- Home
-<img width="428" alt="Home_page" src="https://user-images.githubusercontent.com/78650435/163015916-d597a064-5203-415b-94d3-4031f951e75f.png">
-
-
-- Comments
-<img width="407" alt="Comments_page" src="https://user-images.githubusercontent.com/78650435/163016028-dabe51ae-37cd-4844-b711-e13efa378c1f.png">
-
-# iPhone 13 Pro max image examples
-
-- Home
-<img width="358" alt="Screen Shot 2565-04-13 at 00 15 55" src="https://user-images.githubusercontent.com/78650435/163018053-3aa66f16-1a59-4f5f-a2d5-6d8b9f49b9c2.png">
-
-
-- Comments
-<img width="361" alt="Screen Shot 2565-04-13 at 00 16 05" src="https://user-images.githubusercontent.com/78650435/163018082-0e0cc2a1-185f-4a2f-8b1b-e3dc9f3d2394.png">
-
-
 # iPhone SE video example
 https://user-images.githubusercontent.com/78650435/163016602-afbfe2c6-d340-4d82-ac0c-de180774694f.mp4
 
 # iPhone 13 Pro max video example
-
 https://user-images.githubusercontent.com/78650435/163016463-a018c04b-4cbf-45c7-be8c-90ceec3260c9.mp4

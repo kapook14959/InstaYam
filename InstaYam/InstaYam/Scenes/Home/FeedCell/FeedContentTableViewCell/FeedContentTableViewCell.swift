@@ -12,6 +12,7 @@ import AVFoundation
 
 protocol FeedContentTableViewCellDelegate: AnyObject {
     func didTapLikeButton(index: Int, isLike: Bool)
+    func didTapCommentButton(index: Int, comments: [Comment], feed: FeedData)
 }
 
 class FeedContentTableViewCell: UITableViewCell {
@@ -24,7 +25,7 @@ class FeedContentTableViewCell: UITableViewCell {
     @IBOutlet private weak var contentImage: UIImageView!
     @IBOutlet private weak var likeLabel: UILabel!
     @IBOutlet private weak var captionLabel: UILabel!
-    @IBOutlet private weak var commentLabel: UILabel!
+    @IBOutlet private weak var commentButton: UIButton!
     @IBOutlet private weak var likeButton: UIButton!
         
     private let likeImage = UIImage(named: "heart_red")
@@ -75,10 +76,10 @@ class FeedContentTableViewCell: UITableViewCell {
         likeLabel.text = feed.amountLikes
         captionLabel.text = feed.captions
         if let comments = feed.comments {
-            commentLabel.isHidden = false
-            commentLabel.text = "View all \(comments.count) comments"
+            commentButton.isHidden = false
+            commentButton.setTitle("View all \(comments.count) comments", for: .normal)
         } else {
-            commentLabel.isHidden = true
+            commentButton.isHidden = true
         }
     }
     
@@ -92,6 +93,14 @@ class FeedContentTableViewCell: UITableViewCell {
                 likeButton.setImage(likeImage, for: .normal)
                 delegate?.didTapLikeButton(index: indexPath.row, isLike: true)
             }
+        }
+    }
+    
+    @IBAction private func didTapComments() {
+        if let indexPath = getIndexPath(),
+           let comments = feed.comments{
+            delegate?.didTapCommentButton(index: indexPath.row,
+                                          comments: comments, feed: feed)
         }
     }
     

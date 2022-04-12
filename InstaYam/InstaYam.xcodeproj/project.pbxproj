@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		44A1E6E92803E7DD002BD00E /* FeedContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E6E82803E7DD002BD00E /* FeedContentTableViewCell.swift */; };
 		44A1E6EB2803E7EB002BD00E /* FeedContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A1E6EA2803E7EB002BD00E /* FeedContentTableViewCell.xib */; };
+		44A1E6F728044E5F002BD00E /* CommentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E6F228044E5F002BD00E /* CommentsPresenter.swift */; };
+		44A1E6F828044E5F002BD00E /* CommentsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E6F328044E5F002BD00E /* CommentsRouter.swift */; };
+		44A1E6F928044E5F002BD00E /* CommentsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E6F428044E5F002BD00E /* CommentsModels.swift */; };
+		44A1E6FA28044E5F002BD00E /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E6F528044E5F002BD00E /* CommentsViewController.swift */; };
+		44A1E6FB28044E5F002BD00E /* CommentsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E6F628044E5F002BD00E /* CommentsInteractor.swift */; };
+		44A1E6FD28044E6B002BD00E /* Comments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A1E6FC28044E6B002BD00E /* Comments.storyboard */; };
+		44A1E70128046E26002BD00E /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A1E70028046E26002BD00E /* DescriptionTableViewCell.xib */; };
+		44A1E70328046E38002BD00E /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E70228046E38002BD00E /* DescriptionTableViewCell.swift */; };
+		44A1E70528046E49002BD00E /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E70428046E49002BD00E /* CommentsTableViewCell.swift */; };
+		44A1E70728046E59002BD00E /* CommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A1E70628046E59002BD00E /* CommentsTableViewCell.xib */; };
+		44B7C0BF2805B4FD00090569 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7C0BE2805B4FD00090569 /* EmojiCollectionViewCell.swift */; };
+		44B7C0C12805B50D00090569 /* EmojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B7C0C02805B50D00090569 /* EmojiCollectionViewCell.xib */; };
+		44B7C0C32805CE6600090569 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7C0C22805CE6600090569 /* UITextField+Extension.swift */; };
 		44DD13B427FD8D7D0066D332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD13B327FD8D7D0066D332 /* AppDelegate.swift */; };
 		44DD13B627FD8D7D0066D332 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD13B527FD8D7D0066D332 /* SceneDelegate.swift */; };
 		44DD13B827FD8D7D0066D332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD13B727FD8D7D0066D332 /* ViewController.swift */; };
@@ -88,6 +101,19 @@
 /* Begin PBXFileReference section */
 		44A1E6E82803E7DD002BD00E /* FeedContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedContentTableViewCell.swift; sourceTree = "<group>"; };
 		44A1E6EA2803E7EB002BD00E /* FeedContentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedContentTableViewCell.xib; sourceTree = "<group>"; };
+		44A1E6F228044E5F002BD00E /* CommentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsPresenter.swift; sourceTree = "<group>"; };
+		44A1E6F328044E5F002BD00E /* CommentsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsRouter.swift; sourceTree = "<group>"; };
+		44A1E6F428044E5F002BD00E /* CommentsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsModels.swift; sourceTree = "<group>"; };
+		44A1E6F528044E5F002BD00E /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		44A1E6F628044E5F002BD00E /* CommentsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsInteractor.swift; sourceTree = "<group>"; };
+		44A1E6FC28044E6B002BD00E /* Comments.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Comments.storyboard; sourceTree = "<group>"; };
+		44A1E70028046E26002BD00E /* DescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		44A1E70228046E38002BD00E /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		44A1E70428046E49002BD00E /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		44A1E70628046E59002BD00E /* CommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsTableViewCell.xib; sourceTree = "<group>"; };
+		44B7C0BE2805B4FD00090569 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		44B7C0C02805B50D00090569 /* EmojiCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmojiCollectionViewCell.xib; sourceTree = "<group>"; };
+		44B7C0C22805CE6600090569 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		44DD13B027FD8D7D0066D332 /* InstaYam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaYam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DD13B327FD8D7D0066D332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44DD13B527FD8D7D0066D332 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +211,49 @@
 			path = FeedContentTableViewCell;
 			sourceTree = "<group>";
 		};
+		44A1E6F128044E40002BD00E /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				44A1E7082805B4A8002BD00E /* EmojiCollectionViewCell */,
+				44A1E6FE28046DE9002BD00E /* DescriptionTableViewCell */,
+				44A1E6FF28046DFE002BD00E /* CommentsTableViewCell */,
+				44A1E6F228044E5F002BD00E /* CommentsPresenter.swift */,
+				44A1E6F328044E5F002BD00E /* CommentsRouter.swift */,
+				44A1E6F428044E5F002BD00E /* CommentsModels.swift */,
+				44A1E6F628044E5F002BD00E /* CommentsInteractor.swift */,
+				44A1E6F528044E5F002BD00E /* CommentsViewController.swift */,
+				44A1E6FC28044E6B002BD00E /* Comments.storyboard */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		44A1E6FE28046DE9002BD00E /* DescriptionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				44A1E70028046E26002BD00E /* DescriptionTableViewCell.xib */,
+				44A1E70228046E38002BD00E /* DescriptionTableViewCell.swift */,
+			);
+			path = DescriptionTableViewCell;
+			sourceTree = "<group>";
+		};
+		44A1E6FF28046DFE002BD00E /* CommentsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				44A1E70428046E49002BD00E /* CommentsTableViewCell.swift */,
+				44A1E70628046E59002BD00E /* CommentsTableViewCell.xib */,
+			);
+			path = CommentsTableViewCell;
+			sourceTree = "<group>";
+		};
+		44A1E7082805B4A8002BD00E /* EmojiCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				44B7C0BE2805B4FD00090569 /* EmojiCollectionViewCell.swift */,
+				44B7C0C02805B50D00090569 /* EmojiCollectionViewCell.xib */,
+			);
+			path = EmojiCollectionViewCell;
+			sourceTree = "<group>";
+		};
 		44DD13A727FD8D7C0066D332 = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +308,7 @@
 		44DD13E327FD8DE70066D332 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				44A1E6F128044E40002BD00E /* Comments */,
 				44DD143A27FDAA280066D332 /* StoryCell */,
 				44DD143F27FDAA680066D332 /* FeedCell */,
 				44DD13F727FD95120066D332 /* HomePresenter.swift */,
@@ -257,6 +327,7 @@
 				44DD145027FDE4BC0066D332 /* UIView+Extension.swift */,
 				44DD13E927FD8E150066D332 /* UIImageView+Extension.swift */,
 				44DD144427FDAF4B0066D332 /* UIViewController+Extension.swift */,
+				44B7C0C22805CE6600090569 /* UITextField+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -537,14 +608,18 @@
 				44DD141F27FD9C000066D332 /* Reels.storyboard in Resources */,
 				44DD13C027FD8D7D0066D332 /* LaunchScreen.storyboard in Resources */,
 				44DD143E27FDAA620066D332 /* StoryTableViewCell.xib in Resources */,
+				44A1E70128046E26002BD00E /* DescriptionTableViewCell.xib in Resources */,
 				44DD13BD27FD8D7D0066D332 /* Assets.xcassets in Resources */,
 				44A1E6EB2803E7EB002BD00E /* FeedContentTableViewCell.xib in Resources */,
+				44A1E6FD28044E6B002BD00E /* Comments.storyboard in Resources */,
 				44DD142C27FD9CDC0066D332 /* Market.storyboard in Resources */,
+				44B7C0C12805B50D00090569 /* EmojiCollectionViewCell.xib in Resources */,
 				44DD13BB27FD8D7D0066D332 /* Main.storyboard in Resources */,
 				44DD143927FD9D7C0066D332 /* Profile.storyboard in Resources */,
 				44DD144327FDAAE30066D332 /* FeedTableViewCell.xib in Resources */,
 				44DD145327FDE4BC0066D332 /* LoadingView.xib in Resources */,
 				44DD145B27FDEA960066D332 /* StoryCollectionViewCell.xib in Resources */,
+				44A1E70728046E59002BD00E /* CommentsTableViewCell.xib in Resources */,
 				44DD141227FD9AC90066D332 /* Search.storyboard in Resources */,
 				44DD13F627FD94F40066D332 /* Home.storyboard in Resources */,
 			);
@@ -585,25 +660,33 @@
 				44DD140E27FD9AC20066D332 /* SearchModels.swift in Sources */,
 				44DD145427FDE4BC0066D332 /* LoadingView.swift in Sources */,
 				44DD140C27FD9AC20066D332 /* SearchPresenter.swift in Sources */,
+				44A1E6FA28044E5F002BD00E /* CommentsViewController.swift in Sources */,
 				44DD143327FD9D710066D332 /* ProfilePresenter.swift in Sources */,
+				44A1E70328046E38002BD00E /* DescriptionTableViewCell.swift in Sources */,
+				44A1E6FB28044E5F002BD00E /* CommentsInteractor.swift in Sources */,
 				44DD13EE27FD90350066D332 /* HomeResponse.swift in Sources */,
 				44DD141927FD9BF30066D332 /* ReelsPresenter.swift in Sources */,
 				44DD141A27FD9BF30066D332 /* ReelsRouter.swift in Sources */,
+				44A1E6F828044E5F002BD00E /* CommentsRouter.swift in Sources */,
 				44DD145527FDE4BC0066D332 /* UIView+Extension.swift in Sources */,
 				44DD145927FDEA610066D332 /* StoryCollectionViewCell.swift in Sources */,
 				44DD140D27FD9AC20066D332 /* SearchRouter.swift in Sources */,
+				44A1E70528046E49002BD00E /* CommentsTableViewCell.swift in Sources */,
 				44DD13B427FD8D7D0066D332 /* AppDelegate.swift in Sources */,
 				44DD13EA27FD8E150066D332 /* UIImageView+Extension.swift in Sources */,
 				44DD13B627FD8D7D0066D332 /* SceneDelegate.swift in Sources */,
 				44DD13FC27FD95120066D332 /* HomePresenter.swift in Sources */,
 				44DD142827FD9CC20066D332 /* MarketModels.swift in Sources */,
 				44DD144527FDAF4B0066D332 /* UIViewController+Extension.swift in Sources */,
+				44A1E6F928044E5F002BD00E /* CommentsModels.swift in Sources */,
+				44B7C0C32805CE6600090569 /* UITextField+Extension.swift in Sources */,
 				44DD140027FD95120066D332 /* HomeInteractor.swift in Sources */,
 				44DD13F427FD93300066D332 /* ErrorModel.swift in Sources */,
 				44DD141C27FD9BF30066D332 /* ReelsViewController.swift in Sources */,
 				44DD144127FDAACE0066D332 /* FeedTableViewCell.swift in Sources */,
 				44DD140F27FD9AC20066D332 /* SearchViewController.swift in Sources */,
 				44DD142927FD9CC20066D332 /* MarketViewController.swift in Sources */,
+				44A1E6F728044E5F002BD00E /* CommentsPresenter.swift in Sources */,
 				44DD13F227FD90D90066D332 /* InstaYamWorker.swift in Sources */,
 				44DD13FD27FD95120066D332 /* HomeRouter.swift in Sources */,
 				44DD13FE27FD95120066D332 /* HomeModels.swift in Sources */,
@@ -611,6 +694,7 @@
 				44DD145627FDE4BC0066D332 /* CircularView.swift in Sources */,
 				44DD140327FD95F50066D332 /* TabBarsViewController.swift in Sources */,
 				44DD141D27FD9BF30066D332 /* ReelsInteractor.swift in Sources */,
+				44B7C0BF2805B4FD00090569 /* EmojiCollectionViewCell.swift in Sources */,
 				44DD13FF27FD95120066D332 /* HomeViewController.swift in Sources */,
 				44DD143C27FDAA530066D332 /* StoryTableViewCell.swift in Sources */,
 			);

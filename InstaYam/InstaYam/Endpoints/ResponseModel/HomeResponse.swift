@@ -32,7 +32,7 @@ struct Feed: Codable {
 // MARK: - Comment
 struct Comment: Codable {
     let name, text: String
-    let likes: Bool
+    var likes: Bool
 }
 
 // MARK: - Story

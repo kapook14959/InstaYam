@@ -173,6 +173,7 @@
                             <constraint firstItem="vRd-eJ-HpW" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="cBy-lo-Scr"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="3EI-Ri-wLA"/>
                     <connections>
                         <outlet property="instagramView" destination="hzr-8y-zQu" id="pyB-D5-vXr"/>
                         <outlet property="tableView" destination="IBi-bk-6Le" id="Woe-Ei-T90"/>
@@ -181,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="318.84057971014494" y="-32.142857142857139"/>
+            <point key="canvasLocation" x="1228.985507246377" y="-32.142857142857139"/>
         </scene>
     </scenes>
     <resources>

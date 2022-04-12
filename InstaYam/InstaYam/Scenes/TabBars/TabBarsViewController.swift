@@ -14,7 +14,10 @@ class TabBarsViewController: UITabBarController {
         tabBar.layer.borderWidth = 1
         tabBar.layer.borderColor = UIColor.systemGray5.cgColor
         tabBar.unselectedItemTintColor = .black
-        let vcs = [HomeRouter().createVC(),
+        let homeVC = UINavigationController(rootViewController: HomeRouter().createVC())
+        homeVC.isNavigationBarHidden = true
+        homeVC.setNavigationBarHidden(true, animated: true)
+        let vcs = [homeVC,
                    SearchRouter().createVC(),
                    ReelsRouter().createVC(),
                    MarketRouter().createVC(),

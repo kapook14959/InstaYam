@@ -8,11 +8,15 @@
 import Foundation
 import UIKit
 
+protocol FeedTableViewCellDelegate: AnyObject {
+    func didTapCommentButton(index: Int, comments: [Comment], feed: FeedData)
+}
+
 class FeedTableViewCell: UITableViewCell {
-    
     @IBOutlet private weak var tableView: UITableView!
     
     private var feed: [FeedData] = []
+    weak var delegate: FeedTableViewCellDelegate?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -56,5 +60,9 @@ extension FeedTableViewCell: FeedContentTableViewCellDelegate {
     func didTapLikeButton(index: Int, isLike: Bool) {
         feed[index].isLike = isLike
         tableView.reloadRows(at: [IndexPath(row: index, section: 0)], with: .automatic)
+    }
+    
+    func didTapCommentButton(index: Int, comments: [Comment], feed: FeedData) {
+        delegate?.didTapCommentButton(index: index, comments: comments, feed: feed)
     }
 }

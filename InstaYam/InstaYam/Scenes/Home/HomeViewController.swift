@@ -136,6 +136,7 @@ extension HomeViewController: UITableViewDataSource {
             return cell
         case .feed(let feed):
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "FeedCell", for: indexPath) as? FeedTableViewCell else { return UITableViewCell() }
+            cell.delegate = self
             cell.updateUI(feed: feed)
             return cell
         }
@@ -148,7 +149,7 @@ extension HomeViewController: UITableViewDataSource {
         case .story:
             return 102
         case .feed(let feed):
-            return 456 * CGFloat(feed.count)
+            return 463 * CGFloat(feed.count)
         }
     }
 }
@@ -156,5 +157,11 @@ extension HomeViewController: UITableViewDataSource {
 extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+    }
+}
+
+extension HomeViewController: FeedTableViewCellDelegate {
+    func didTapCommentButton(index: Int, comments: [Comment], feed: FeedData) {
+        router.navigateToComments(index: index, comments: comments, feed: feed)
     }
 }

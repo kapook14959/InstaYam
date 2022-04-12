@@ -7,7 +7,7 @@ Hi everyone! I'm Pook or you can call me Supakorn Siripisitwong. I'm studying in
 This project is created by Pook Supakorn Siripisitwong. I spent 2-3 weeks to done InstaYam project. 
 
 # Reason why created InstaYam
-The reason is to learn the creating process of the most famous application. I had gained many experences for creating InstaYam project. For example, how to setup constraints, how to use TableView, how to use CollectionView, how to use custom class in storyboard or XIB, how to use custom cell when creating TableView or CollectionView, how to call endpoint with URLSession, how to make the clean code by using CleanSwift architecture, how to create custom tabbars, and how to create Extension of UIKIT such as UITextField, UIImageView, UIViewController, UIView. Moreover, I can easily use any components in Storyboard and also programmatically any components in the code.
+The reason is to learn the creating process of the famous application. I had gained many experences for creating InstaYam project. For example, how to setup constraints, how to use TableView, how to use CollectionView, how to use custom class in storyboard or XIB, how to use custom cell when creating TableView or CollectionView, how to call endpoint with URLSession, how to make the clean code by using CleanSwift architecture, how to create custom tabbars, and how to create Extension of UIKIT such as UITextField, UIImageView, UIViewController, UIView. Moreover, I can easily use any components in Storyboard and also programmatically any components in the code.
 
 # Done features
 - Tabbars
@@ -26,3 +26,10 @@ https://user-images.githubusercontent.com/78650435/163016602-afbfe2c6-d340-4d82-
 
 # iPhone 13 Pro max video example
 https://user-images.githubusercontent.com/78650435/163016463-a018c04b-4cbf-45c7-be8c-90ceec3260c9.mp4
+
+# Credits
+- Thanks for all knowledge and solving any problems https://stackoverflow.com/
+- Generate random image by using https://picsum.photos
+- Icon images from https://icons8.com/
+- Generate app icon from https://appicon.co/
+- Thanks Instagram

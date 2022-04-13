@@ -1,6 +1,6 @@
 //
 //  LoadingView.swift
-//  Instagram
+//  InstaYam
 //
 //
 

@@ -1,6 +1,6 @@
 //
 //  CircularView.swift
-//  InstagramDemo
+//  Instagram
 
 import UIKit
 

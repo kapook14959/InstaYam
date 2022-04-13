@@ -1,6 +1,6 @@
 //
 //  UIView+Extension.swift
-//  InstagramDemo
+//  Instagram
 
 import UIKit
 

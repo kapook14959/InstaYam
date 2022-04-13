@@ -1,8 +1,7 @@
 //
 //  LoadingView.swift
-//  InstagramDemo
+//  Instagram
 //
-//  Created by Paremai on 4/4/2565 BE.
 //
 
 import UIKit

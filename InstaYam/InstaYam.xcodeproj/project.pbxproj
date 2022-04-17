@@ -19,6 +19,7 @@
 		44A1E70328046E38002BD00E /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E70228046E38002BD00E /* DescriptionTableViewCell.swift */; };
 		44A1E70528046E49002BD00E /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E70428046E49002BD00E /* CommentsTableViewCell.swift */; };
 		44A1E70728046E59002BD00E /* CommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A1E70628046E59002BD00E /* CommentsTableViewCell.xib */; };
+		44B1DDFC280C6F72006D4F10 /* HomeInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B1DDFB280C6F72006D4F10 /* HomeInteractorTests.swift */; };
 		44B7C0BF2805B4FD00090569 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7C0BE2805B4FD00090569 /* EmojiCollectionViewCell.swift */; };
 		44B7C0C12805B50D00090569 /* EmojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B7C0C02805B50D00090569 /* EmojiCollectionViewCell.xib */; };
 		44B7C0C32805CE6600090569 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B7C0C22805CE6600090569 /* UITextField+Extension.swift */; };
@@ -28,7 +29,6 @@
 		44DD13BB27FD8D7D0066D332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DD13B927FD8D7D0066D332 /* Main.storyboard */; };
 		44DD13BD27FD8D7D0066D332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DD13BC27FD8D7D0066D332 /* Assets.xcassets */; };
 		44DD13C027FD8D7D0066D332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DD13BE27FD8D7D0066D332 /* LaunchScreen.storyboard */; };
-		44DD13CB27FD8D7D0066D332 /* InstaYamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD13CA27FD8D7D0066D332 /* InstaYamTests.swift */; };
 		44DD13D527FD8D7D0066D332 /* InstaYamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD13D427FD8D7D0066D332 /* InstaYamUITests.swift */; };
 		44DD13D727FD8D7D0066D332 /* InstaYamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD13D627FD8D7D0066D332 /* InstaYamUITestsLaunchTests.swift */; };
 		44DD13EA27FD8E150066D332 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD13E927FD8E150066D332 /* UIImageView+Extension.swift */; };
@@ -111,6 +111,7 @@
 		44A1E70228046E38002BD00E /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
 		44A1E70428046E49002BD00E /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
 		44A1E70628046E59002BD00E /* CommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsTableViewCell.xib; sourceTree = "<group>"; };
+		44B1DDFB280C6F72006D4F10 /* HomeInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorTests.swift; sourceTree = "<group>"; };
 		44B7C0BE2805B4FD00090569 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
 		44B7C0C02805B50D00090569 /* EmojiCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmojiCollectionViewCell.xib; sourceTree = "<group>"; };
 		44B7C0C22805CE6600090569 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
@@ -123,7 +124,6 @@
 		44DD13BF27FD8D7D0066D332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44DD13C127FD8D7D0066D332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44DD13C627FD8D7D0066D332 /* InstaYamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaYamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		44DD13CA27FD8D7D0066D332 /* InstaYamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaYamTests.swift; sourceTree = "<group>"; };
 		44DD13D027FD8D7D0066D332 /* InstaYamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaYamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DD13D427FD8D7D0066D332 /* InstaYamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaYamUITests.swift; sourceTree = "<group>"; };
 		44DD13D627FD8D7D0066D332 /* InstaYamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaYamUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -254,6 +254,22 @@
 			path = EmojiCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		44B1DDF9280C6F4E006D4F10 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				44B1DDFA280C6F56006D4F10 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		44B1DDFA280C6F56006D4F10 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				44B1DDFB280C6F72006D4F10 /* HomeInteractorTests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		44DD13A727FD8D7C0066D332 = {
 			isa = PBXGroup;
 			children = (
@@ -291,7 +307,7 @@
 		44DD13C927FD8D7D0066D332 /* InstaYamTests */ = {
 			isa = PBXGroup;
 			children = (
-				44DD13CA27FD8D7D0066D332 /* InstaYamTests.swift */,
+				44B1DDF9280C6F4E006D4F10 /* Scenes */,
 			);
 			path = InstaYamTests;
 			sourceTree = "<group>";
@@ -704,7 +720,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44DD13CB27FD8D7D0066D332 /* InstaYamTests.swift in Sources */,
+				44B1DDFC280C6F72006D4F10 /* HomeInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

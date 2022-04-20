@@ -10,7 +10,7 @@ protocol HomeInteractorOutput: AnyObject {
 
 final class HomeInteractor: HomeInteractorOutput {
     var presenter: HomePresenterOutput!
-    private var worker = InstaYamWorker(store: InstaYamStore())
+    var worker = InstaYamWorker(store: InstaYamStore())
     
     // MARK: - Business logic
     
